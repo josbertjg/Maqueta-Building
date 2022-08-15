@@ -1,0 +1,32 @@
+$coloresImpar: (
+    cuadro1: #FF6817,
+    cuadro3: #282B33
+);
+$coloresPar: (
+    cuadro2: #F43401,
+    cuadro4: #535B64
+);
+
+@mixin recuadros {
+    height: 80%;
+    width: 20%;
+    padding: 1rem;
+    h1{
+        font-size: 3rem;
+        margin-top: 0;
+    }
+    span{
+        font-weight: bold;
+    }
+    img{
+        transform: rotateZ(90deg);
+    }
+}
+
+@mixin building{
+    color: map-get($coloresImpar,"cuadro1");
+    font: {
+        weight: bold;
+        size: 7rem;
+    }
+}

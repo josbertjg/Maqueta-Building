@@ -1,0 +1,186 @@
+body {
+  margin: 0%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body header {
+  height: 7vh;
+  width: 100%;
+}
+body header nav {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0.5rem;
+}
+body header nav span {
+  margin-left: 4rem;
+  color: grey;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+body header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0%;
+}
+body header nav ul li {
+  margin-right: 2.5rem;
+}
+body header nav ul li img {
+  height: 22px;
+  margin-right: 0.5rem;
+}
+body main {
+  height: 93vh;
+  background-image: url("../img/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body main > div {
+  width: 500px;
+  margin-left: 5rem;
+}
+body main > div span {
+  color: #FF6817;
+  font-weight: bold;
+  font-size: 7rem;
+}
+body main > div p {
+  color: white;
+  font-style: italic;
+}
+body main > div div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+body main > div div #input {
+  padding: 0.75rem;
+  width: 200px;
+  margin: 0;
+  border: none;
+}
+body main > div div #input::-webkit-input-placeholder {
+  color: #bebebe;
+}
+body main > div div #input::-moz-placeholder {
+  color: #bebebe;
+}
+body main > div div #input:-ms-input-placeholder {
+  color: #bebebe;
+}
+body main > div div #input::-ms-input-placeholder {
+  color: #bebebe;
+}
+body main > div div #input::placeholder {
+  color: #bebebe;
+}
+body main > div div #submit {
+  background: -webkit-gradient(linear, left top, right top, from(#FF6817), to(#F43401));
+  background: linear-gradient(to right, #FF6817, #F43401);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  font-weight: lighter;
+  cursor: pointer;
+}
+body footer {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body footer div:nth-child(1) {
+  height: 80%;
+  width: 20%;
+  padding: 1rem;
+  background-color: #FF6817;
+}
+body footer div:nth-child(1) h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+body footer div:nth-child(1) span {
+  font-weight: bold;
+}
+body footer div:nth-child(1) img {
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
+}
+body footer div:nth-child(2) {
+  height: 80%;
+  width: 20%;
+  padding: 1rem;
+  background-color: #F43401;
+}
+body footer div:nth-child(2) h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+body footer div:nth-child(2) span {
+  font-weight: bold;
+}
+body footer div:nth-child(2) img {
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
+}
+body footer div:nth-child(3) {
+  height: 80%;
+  width: 20%;
+  padding: 1rem;
+  background-color: #282B33;
+}
+body footer div:nth-child(3) h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+body footer div:nth-child(3) span {
+  font-weight: bold;
+}
+body footer div:nth-child(3) img {
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
+}
+body footer div:nth-child(4) {
+  height: 80%;
+  width: 20%;
+  padding: 1rem;
+  background-color: #535B64;
+}
+body footer div:nth-child(4) h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+body footer div:nth-child(4) span {
+  font-weight: bold;
+}
+body footer div:nth-child(4) img {
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
+}
